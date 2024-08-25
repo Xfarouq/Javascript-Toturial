@@ -6,13 +6,24 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+
+
+    <button onclick="window.print()">Print this page</button>
+    <p id="demo"></p>
+
     <script>
-        var name = "Meta Brains"
-        var name = " Brains"
-        document.write(name)
-        let m = "Meta Brains"
-        m = " Brains"
-        document.write(m)
+        let x, y, z;
+        x = 5;
+        y = 10;
+        z = x + y;
+        document.getElementById("demo").innerHTML= z
+        let x, y, z;
+        x = 6;
+        y = 10;
+        w = x + y;
+        document.getElementById("demo").innerHTML= w
     </script>
 </body>
 </html>
