@@ -1,1 +1,1 @@
-document.querySelector("h1").style.alignContent = "center";
+document.querySelector("h1").classList.add("huge");
